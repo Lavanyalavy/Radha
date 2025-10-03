@@ -25,30 +25,30 @@ class BirthdayStoryApp {
         this.particleCount = 15;
 
         this.balloonMessages = [
-            "🎉 Hope your day is as wonderful as you are!",
-            "✨ May all your dreams come true this year!",
-            "🌟 Another year of amazing adventures awaits!",
-            "🎊 Celebrate and make beautiful memories!",
-            "💖 You're absolutely amazing, Aarthi!",
-            "🎈 Wishing you endless joy and happiness!",
-            "🌈 May your year be filled with magic!",
-            "🎁 Here's to another fantastic year!"
+            "🎉Life long happy and healthy irukanum!",
+            "✨I want to see you as a successful person!",
+            "🌟 I wanted to see your wife and tell her 'How lucky you are! Please take care of him'",
+            "🎊 I meet your kids and tell them 'Your dad is a great person, You are blessed to have him as your dad'",
+            "💖 Whenever I pray ,I pray for you to give you wealth, health and happiness",
+            "🎈 If possible, I wanted to write a book for you... With holds all our memories",
+            "💖 Finally, Enaku una pudikum aana enaku nee vennam",
+            "🎁 Forget our golden days and live your life happily"
         ];
 
         this.characterMessages = {
-            'Jackie Chan Adventures': '🥋 Adventure awaits on your birthday!',
-            'Tom and Jerry': '🐱🐭 Classic fun for your special day!',
-            'Horrid Henry': '😈 Mischievous birthday wishes!',
-            'Doraemon': '🤖 Magical gadgets for your birthday!',
-            'Ninja Hattori': '🥷 Ninja protection for your joy!',
-            'Creep School': '👻 Spooky birthday fun!'
+            'Jackie Chan Adventures': 'Yarume bye solli convo start panna mattaga but we did... Because its our code word to says that....Naantha🩵',
+            'Tom and Jerry': 'nambe vcm yarukume theiryatha apo... Naa thaniya iruken ah illa pakkathula aal irukagala nu hint kudukura emoji😅',
+            'Horrid Henry': 'Intha heart nee athigama use pannuve enakaga status, story vaikura apo... Ithula iruke 3 heart... That says our untold word🥲',
+            'Doraemon': 'GTA vice City velanthu irukum pothu ennoda fav colour yellow sonne antha sec unaku pudicha colour green eh marachu enaku puducha orey reason kaga unakum yellow fav colour sonne... Unaku pudicha colour nala enaku pudikala nu apove Naa inimay yellow enaku pudikathu nu sonne unaku hurt aagura mathiri....😐 But still unaku yellow tha fav colour💛',
+            'Ninja Hattori': 'Nambeku neraiya sanda vanthu Iruku ana epovem nambe breakup pannikalam nu nenachatum illa sonnathum illa.. Neraiya problems eh senthu face panni irukom apolam nambeku strong hope 🫴🏻🫳🏻',
+            'Creep School': 'Hahaha... Nambe pesunathu veda athigama use panna emoji ithutha... Intha emoji illa days end anathey illa but now its all done... Recent used emoji always cares this now its empty'
         };
 
         this.init();
     }
 
     init() {
-        console.log('🎂 Mobile Birthday Story Loading for Aarthi Iswarya...');
+        console.log('🎂 Mobile Birthday Story Loading for Mine...');
         
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', () => {
@@ -337,7 +337,7 @@ class BirthdayStoryApp {
     }
 
     completeStory() {
-        console.log('🎊 Story completed! Happy Birthday Aarthi Iswarya!');
+        console.log('🎊 Story completed! Happy Birthday MINE!');
         this.createGrandCelebration();
     }
 
@@ -799,7 +799,7 @@ class BirthdayStoryApp {
     }
 
     fallbackShare() {
-        const text = '🎉 Happy Birthday Aarthi Iswarya! Check out this mobile birthday story! ' + window.location.href;
+        const text = '🎉 Happy Birthday Mine! Check out this mobile birthday story! ' + window.location.href;
         
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(text)
@@ -890,7 +890,7 @@ const birthday = new Date(today.getFullYear(), 8, 23);
 
 if (today.getMonth() === 8 && today.getDate() === 23) {
     console.log(`
-🎂📱 IT'S AARTHI'S BIRTHDAY TODAY! 📱🎂
+🎂📱 IT'S MY LOVE BIRTHDAY TODAY! 📱🎂
 Perfect mobile experience ready for celebration! 🎉
     `);
 } else {
@@ -901,7 +901,7 @@ Perfect mobile experience ready for celebration! 🎉
     const daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
     
     console.log(`
-📱🗓️ ${daysDiff} days until Aarthi's birthday! 🎂
-Mobile-ready celebration awaiting September 23rd! 🌟
+📱🗓️ ${daysDiff} days until MY LOVE's birthday! 🎂
+Mobile-ready celebration awaiting October 8th! 🌟
     `);
 }
